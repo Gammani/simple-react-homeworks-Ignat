@@ -1,3 +1,39 @@
-.message {
+.main {
+    width: 400px;
+    height: 100px;
+    background-color: darkgreen;
+}
 
+.ava {
+    display: inline-block;
+}
+
+.ava img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.message {
+    padding-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 70px;
+    display: inline-block;
+    background-color: cadetblue;
+    width:200px;
+    height:90px;
+    border-radius:11px;
+//box-shadow: inset 0 0 1em #C0C0C0;
+    box-shadow: 1px 1px 10px #C0C0C0;
+}
+.message:before {
+    position:absolute;
+    content:"";
+    right:-14px;
+    top:10px;
+    transform: scaleY(0.5) rotate(45deg);
+    width:30px;
+    height:30px;
+    box-shadow: 5px -5px 10px #C0C0C0;
 }
