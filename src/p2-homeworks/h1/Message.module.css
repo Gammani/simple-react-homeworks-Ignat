@@ -1,3 +1,78 @@
-.message {
+.wrapperMessage {
+    display: flex;
+    width: 600px;
+    height: 170px;
+    margin: 20px;
+}
 
+.blockWrapperAvatar {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 150px;
+    background-color: chartreuse;
+}
+.blockAvatar {
+    display: flex;
+    margin-bottom: 7px;
+    background-color: chartreuse;
+}
+.avatar img {
+    width: 90px;
+    border-radius: 50px;
+}
+
+.blockWrapperMessage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: chartreuse;
+}
+.blockMessage {
+    display: flex;
+    width: 400px;
+    height: 130px;
+    border-radius: 7px 7px 7px 0;
+    position: relative;
+    background-color: darkcyan;
+}
+.blockMessage::after {
+    display: block;
+    content: '';
+    border: 25px solid transparent;
+    border-bottom: 25px solid darkcyan;
+    position: absolute;
+    bottom: 0;
+    left: -25px;
+}
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 5px;
+    width: 150px;
+    color: rgb(199, 199, 207);
+    background-color: darkcyan;
+    border-radius: 0px 7px 7px 0px;
+}
+.message {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 7px 0px 0px 0px ;
+}
+.messageName {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    color: rgb(200, 155, 214);
+}
+.messageText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: darkcyan;
+    color: ghostwhite;
 }
