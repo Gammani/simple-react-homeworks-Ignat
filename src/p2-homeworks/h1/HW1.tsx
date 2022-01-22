@@ -1,6 +1,7 @@
 import React from 'react'
 import Message from "./Message";
 import avatar from "../../assets/img/avatar-bin.jpg"
+import MessageAnswer from "./MessageAnswer";
 
 const messageData = {
     avatar: avatar,
@@ -25,8 +26,12 @@ function HW1() {
             />
 
             <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeMessage/>*/}
+                {/*<MessageAnswer*/}
+                {/*    avatar={messageData.avatar}*/}
+                {/*    name={messageData.name}*/}
+                {/*    message={messageData.message}*/}
+                {/*    time={messageData.time}*/}
+                {/*/>*/}
             <hr/>
         </div>
     )
