@@ -1,5 +1,5 @@
-import React, {ChangeEvent} from 'react'
-import s from './Greeting.module.css'
+import React, {ChangeEvent, KeyboardEvent} from 'react'
+import style from './Greeting.module.css'
 
 type GreetingPropsType = {
     name: string
@@ -7,20 +7,32 @@ type GreetingPropsType = {
     addUser: () => void
     error: string
     totalUsers: number
+    onEnter: (e: KeyboardEvent<HTMLInputElement>) => void
+    showError: () => void
+    hideError: () => void
 }
 
 // презентационная компонента (для верстальщика)
 const Greeting: React.FC<GreetingPropsType> = (
-    {name, setNameCallback, addUser, error, totalUsers} // деструктуризация пропсов
+    {name, setNameCallback, addUser, error, totalUsers, onEnter, showError, hideError} // деструктуризация пропсов
 ) => {
-    const inputClass = error ? s.error : ''
+    const inputClass = error ? style.errorInput : ''
 
     return (
-        <div>
-            <input value={name} onChange={setNameCallback} className={inputClass}/>
-            <span>{error}</span>
-            <button onClick={addUser}>add</button>
-            <span>{totalUsers}</span>
+        <div className={style.greeting}>
+            <div>
+                <input
+                    value={name}
+                    onChange={setNameCallback}
+                    className={inputClass}
+                    onKeyDown={onEnter}
+                    onBlur={showError}
+                    onFocus={hideError}
+                />
+                <div className={style.error}>{error}</div>
+            </div>
+            <button onClick={addUser} className={style.button}>add</button>
+            <span className={style.count}>{totalUsers}</span>
         </div>
     )
 }

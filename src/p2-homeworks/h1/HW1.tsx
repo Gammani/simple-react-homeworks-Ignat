@@ -1,7 +1,7 @@
 import React from 'react'
 import Message from "./Message";
 import avatar from "../../assets/img/avatar-bin.jpg"
-import MessageAnswer from "./MessageAnswer";
+// import MessageAnswer from "./MessageAnswer";
 
 const messageData = {
     avatar: avatar,
