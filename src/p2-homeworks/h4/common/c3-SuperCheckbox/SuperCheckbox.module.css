@@ -1,5 +1,32 @@
-.checkbox {
+.label {
+    display: flex;
+    align-items: center;
 
+    cursor: pointer;
+}
+
+.checkbox {
+    /*appearance: none; !* Сво-во apperance изменяет внешний вид элемента интерфейса, при сохранении его функции, *!*/
+    /*Усли задать значение none, то чекбокс пропадет, но по нему, тем н менее, */
+    /*сожно щелкать и состояние чекбокса будет менятся */
+
+    width: 20px;
+    height: 20px;
+
+    margin-right: 10px;
+
+    background: #c1d5cc;
+    cursor: pointer;
+}
+
+.checkbox:checked {
+    /*appearance: none;*/
+
+    background-image: url("checked.png");
+}
+
+.checkbox:focus {
+    outline: #99ff99 solid 1px;
 }
 
 .spanClassName {
