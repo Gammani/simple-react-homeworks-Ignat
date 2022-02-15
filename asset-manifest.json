@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/simple-react-homeworks-Ignat/static/css/main.72c4ff97.chunk.css",
-    "main.js": "/simple-react-homeworks-Ignat/static/js/main.8979f2c4.chunk.js",
-    "main.js.map": "/simple-react-homeworks-Ignat/static/js/main.8979f2c4.chunk.js.map",
+    "main.css": "/simple-react-homeworks-Ignat/static/css/main.07ed24e6.chunk.css",
+    "main.js": "/simple-react-homeworks-Ignat/static/js/main.9c6e6874.chunk.js",
+    "main.js.map": "/simple-react-homeworks-Ignat/static/js/main.9c6e6874.chunk.js.map",
     "runtime-main.js": "/simple-react-homeworks-Ignat/static/js/runtime-main.7282bed2.js",
     "runtime-main.js.map": "/simple-react-homeworks-Ignat/static/js/runtime-main.7282bed2.js.map",
-    "static/js/2.490fbe74.chunk.js": "/simple-react-homeworks-Ignat/static/js/2.490fbe74.chunk.js",
-    "static/js/2.490fbe74.chunk.js.map": "/simple-react-homeworks-Ignat/static/js/2.490fbe74.chunk.js.map",
+    "static/js/2.62d8a851.chunk.js": "/simple-react-homeworks-Ignat/static/js/2.62d8a851.chunk.js",
+    "static/js/2.62d8a851.chunk.js.map": "/simple-react-homeworks-Ignat/static/js/2.62d8a851.chunk.js.map",
     "index.html": "/simple-react-homeworks-Ignat/index.html",
-    "precache-manifest.f3fc132f61f676f47c192dcdd596b92c.js": "/simple-react-homeworks-Ignat/precache-manifest.f3fc132f61f676f47c192dcdd596b92c.js",
+    "precache-manifest.872554fbee944e9151b4f6b6be0453a3.js": "/simple-react-homeworks-Ignat/precache-manifest.872554fbee944e9151b4f6b6be0453a3.js",
     "service-worker.js": "/simple-react-homeworks-Ignat/service-worker.js",
-    "static/css/main.72c4ff97.chunk.css.map": "/simple-react-homeworks-Ignat/static/css/main.72c4ff97.chunk.css.map",
-    "static/js/2.490fbe74.chunk.js.LICENSE.txt": "/simple-react-homeworks-Ignat/static/js/2.490fbe74.chunk.js.LICENSE.txt"
+    "static/css/main.07ed24e6.chunk.css.map": "/simple-react-homeworks-Ignat/static/css/main.07ed24e6.chunk.css.map",
+    "static/js/2.62d8a851.chunk.js.LICENSE.txt": "/simple-react-homeworks-Ignat/static/js/2.62d8a851.chunk.js.LICENSE.txt",
+    "static/media/avatar-bin.jpg": "/simple-react-homeworks-Ignat/static/media/avatar-bin.9902c1a1.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.7282bed2.js",
-    "static/js/2.490fbe74.chunk.js",
-    "static/css/main.72c4ff97.chunk.css",
-    "static/js/main.8979f2c4.chunk.js"
+    "static/js/2.62d8a851.chunk.js",
+    "static/css/main.07ed24e6.chunk.css",
+    "static/js/main.9c6e6874.chunk.js"
   ]
 }
